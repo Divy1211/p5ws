@@ -39,7 +39,7 @@ Lets say that you want to create pentagons. The following function can be used t
 
 ```js
 function pentagon(x, y, edge) {
-    let radius = sin(radians(72))/sin(radians(54))*edge;
+    let radius = sin(radians(54))/sin(radians(72))*edge;
     beginShape()
     for(i = 0; i < 5; ++i)
         vertex(x + radius*cos(2*PI*i/5), y + radius*sin(2*PI*i/5))
@@ -51,7 +51,7 @@ Now you may notice, that one of the edges of the pentagon is missing. This is be
 
 ```js
 function pentagon(x, y, edge) {
-    let radius = sin(radians(72))/sin(radians(54))*edge;
+    let radius = sin(radians(54))/sin(radians(72))*edge;
     
     beginShape()
     for(i = 0; i < 5; ++i)
@@ -66,7 +66,7 @@ Now you might also notice that the pentagon is not "flat". It is currently sligh
 
 ```js
 function pentagon(x, y, edge) {
-    let radius = sin(radians(72))/sin(radians(54))*edge;
+    let radius = sin(radians(54))/sin(radians(72))*edge;
     
     rotate(radians(-18));
 
@@ -83,7 +83,7 @@ For the pentagon to be centred correctly, we need to rotate about the centre of 
 
 ```js
 function pentagon(x, y, edge) {
-    let radius = sin(radians(72))/sin(radians(54))*edge;
+    let radius = sin(radians(54))/sin(radians(72))*edge;
 
     translate(x, y);
     rotate(radians(-18));
@@ -99,7 +99,7 @@ You may have also noticed that if you now try to make another shape, its rotatio
 
 ```js
 function pentagon(x, y, edge) {
-    let radius = sin(radians(72))/sin(radians(54))*edge;
+    let radius = sin(radians(54))/sin(radians(72))*edge;
 
     translate(x, y);
     rotate(radians(-18));
@@ -118,7 +118,7 @@ While this works, this is not very manage-able in the long run if you make hundr
 
 ```js
 function pentagon(x, y, edge) {
-    let radius = sin(radians(72))/sin(radians(54))*edge;
+    let radius = sin(radians(54))/sin(radians(72))*edge;
 
     push();
 

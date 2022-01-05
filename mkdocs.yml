@@ -1,8 +1,8 @@
 site_name:          p5.js Workshop
 site_url:           https://p5workshop.com
 docs_dir:           docs/
-repo_name:          ""
-repo_url:           ""
+repo_name:          "p5ws"
+repo_url:           "https://github.com/Divy1211/p5ws"
 use_directory_urls: true
 
 nav:
@@ -14,8 +14,8 @@ nav:
       - 3. Shapes: "./day1/shapes.md"
       - 4. Events: "./day1/events.md"
       - 5. Objects: "./day1/objects.md"
-    # - Session II:
-    #   - Project: "./day2/project.md"
+    - Session II:
+      - 1. Overlapping Shapes: "./day2/intersections.md"
 
 markdown_extensions:
   - admonition                # Create not and warning boxes        https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition
