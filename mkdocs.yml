@@ -12,10 +12,10 @@ nav:
       - 1. Basics of Computer Graphics: "./day1/cg_basics.md"
       - 2. Basics of p5: "./day1/p5_basics.md"
       - 3. Shapes: "./day1/shapes.md"
-      - 4. Events: "./day1/events.md"
-      - 5. Objects: "./day1/objects.md"
     - Session II:
-      - 1. Overlapping Shapes: "./day2/intersections.md"
+      - 4. Events: "./day2/events.md"
+      - 5. Objects: "./day2/objects.md"
+      - 6. Overlapping Shapes: "./day2/intersections.md"
 
 markdown_extensions:
   - admonition                # Create not and warning boxes        https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition

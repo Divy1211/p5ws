@@ -1,4 +1,4 @@
-## 1.1. Determining If A Point Is Inside A Given Shape
+## 6.1. Determining If A Point Is Inside A Given Shape
 
 ### 1. Circles
 
@@ -95,7 +95,7 @@ function draw() {
 }
 ```
 
-## 1.2. Determining If Two Shapes Overlap
+## 6.2. Determining If Two Shapes Overlap
 
 ### 1. Circles
 
